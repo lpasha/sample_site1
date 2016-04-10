@@ -42,7 +42,7 @@ function validate($userData) {
   return $userData;
 }
 
-if(!empty($name) && !empty($email) && !empty(comment))
+if(!empty($name) && !empty($email) && !empty($comment))
 {
 	  
   // open $myfile for appending comments
